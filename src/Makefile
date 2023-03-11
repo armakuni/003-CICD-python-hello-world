@@ -1,12 +1,12 @@
 .PHONY: install
 # installs requirements.txt
 install:
-	python3 -m pip install -r req.txt
+	python3 -m pip install -r requirements.txt
 
 .PHONY: run
 # run the hello world server
 run:
-	python3 main.py
+	python3 app.py
 
 .PHONY: test
 # runs unit tests
