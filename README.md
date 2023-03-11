@@ -1,5 +1,7 @@
 # 003-CICD-python-hello-world
 
+&bigstar; when working with the source code locally, use `pipenv shell` and then `make install` to install the dependencies for this project. `make run` should then run the web server.
+
 Note: the name of our deployed application is: asg-ak-python-hello-world
 
 Note: this repo has a failing pipeline. Can you fix it so that the tests pass and it deploys to Heroku?
